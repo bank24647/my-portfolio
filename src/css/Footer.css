@@ -1,0 +1,18 @@
+#footer {
+    background-color: #121318;
+    height: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    color: #fafafa;
+    font-weight: lighter;
+}
+
+.amongus {
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+}
+
+.copyright {
+    font-size: smaller;
+    opacity: 0.5;
+}

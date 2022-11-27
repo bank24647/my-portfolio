@@ -10,7 +10,7 @@ function AboutMe() {
                 </div>
             </div>
             <div className="row mt-5 text-center">
-                <img src="/imgs/Nutchanol.jpg" alt="my face" id="avatar" className="mx-auto d-block"></img>
+                <img src="./my-portfolio/imgs/Nutchanol.jpg" alt="my face" id="avatar" className="mx-auto d-block"></img>
                 <h5 className="mt-4">Nutchanol Pharos</h5>
                 <h5 className="mt-3">Nickname: Bank</h5>
             </div>
@@ -32,25 +32,25 @@ function AboutMe() {
             <div className="row fw-bold">
                 <div className="col">
                     <div className="skill">
-                        <img src="/imgs/html.png" className="logo me-2" alt="html"></img>
+                        <img src="./my-portfolio/imgs/html.png" className="logo me-2" alt="html"></img>
                         <span>HTML</span>
                     </div>
                 </div>
                 <div className="col">
                     <div className="skill">
-                        <img src="/imgs/css.png" className="logo me-2" alt="css"></img>
+                        <img src="./my-portfolio/imgs/css.png" className="logo me-2" alt="css"></img>
                         <span>CSS</span>
                     </div>
                 </div>
                 <div className="col">
                     <div className="skill">
-                        <img src="/imgs/javascript.png" className="logo me-2" alt="js"></img>
+                        <img src="./my-portfolio/imgs/javascript.png" className="logo me-2" alt="js"></img>
                         <span>JavaScript</span>
                     </div>
                 </div>
                 <div className="col">
                     <div className="skill">
-                        <img src="/imgs/bootstrap.png" className="logo me-2" alt="bootstrap"></img>
+                        <img src="./my-portfolio/imgs/bootstrap.png" className="logo me-2" alt="bootstrap"></img>
                         Bootstrap
                     </div>
                 </div>
@@ -58,25 +58,25 @@ function AboutMe() {
             <div className="row text-left fw-bold mt-3">
                 <div className="col">
                     <div className="skill">
-                        <img src="/imgs/react.png" className="logo me-2" alt="react"></img>
+                        <img src="./my-portfolio/imgs/react.png" className="logo me-2" alt="react"></img>
                         <span>React.js</span>
                     </div>
                 </div>
                 <div className="col">
                     <div className="skill">
-                        <img src="/imgs/node.png" className="logo me-2" alt="node"></img>
+                        <img src="./my-portfolio/imgs/node.png" className="logo me-2" alt="node"></img>
                         <span>Node.js</span>
                     </div>
                 </div>
                 <div className="col">
                     <div className="skill">
-                        <img src="/imgs/express.png" className="logo me-2" alt="express"></img>
+                        <img src="./my-portfolio/imgs/express.png" className="logo me-2" alt="express"></img>
                         <span>Express.js</span>
                     </div>
                 </div>
                 <div className="col">
                     <div className="skill">
-                        <img src="/imgs/sql.png" className="logo me-2" alt="sql"></img>
+                        <img src="./my-portfolio/imgs/sql.png" className="logo me-2" alt="sql"></img>
                         <span>SQL</span>
                     </div>
                 </div>

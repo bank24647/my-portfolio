@@ -9,7 +9,7 @@ function Project() {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 img-carousel"
-                                src="./my-portfolio/imgs/project1/user_homepage.png"
+                                src="./imgs/project1/user_homepage.png"
                                 alt="First slide"
                             />
                             <Carousel.Caption>
@@ -19,7 +19,7 @@ function Project() {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 img-carousel"
-                                src="./my-portfolio/imgs/project1/user_appointment.png"
+                                src="./imgs/project1/user_appointment.png"
                                 alt="Second slide"
                             />
                             <Carousel.Caption>
@@ -29,7 +29,7 @@ function Project() {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 img-carousel"
-                                src="./my-portfolio/imgs/project1/user_infect_report.png"
+                                src="./imgs/project1/user_infect_report.png"
                                 alt="Third slide"
                             />
                             <Carousel.Caption>
@@ -47,13 +47,13 @@ function Project() {
                         A website that lets university students and personnel appoint vaccines and receive news
                         announcements from the university.
                     </p>
-                    <img src="./my-portfolio/imgs/html.png" className="logo me-4" alt="html"></img>
-                    <img src="./my-portfolio/imgs/css.png" className="logo me-4" alt="css"></img>
-                    <img src="./my-portfolio/imgs/javascript.png" className="logo me-4" alt="javascript"></img>
-                    <img src="./my-portfolio/imgs/bootstrap.png" className="logo me-4" alt="bootstrap"></img>
-                    <img src="./my-portfolio/imgs/node.png" className="logo me-4" alt="node"></img>
-                    <img src="./my-portfolio/imgs/express.png" className="logo me-4" alt="express"></img>
-                    <img src="./my-portfolio/imgs/sql.png" className="logo me-4" alt="sql"></img>
+                    <img src="./imgs/html.png" className="logo me-4" alt="html"></img>
+                    <img src="./imgs/css.png" className="logo me-4" alt="css"></img>
+                    <img src="./imgs/javascript.png" className="logo me-4" alt="javascript"></img>
+                    <img src="./imgs/bootstrap.png" className="logo me-4" alt="bootstrap"></img>
+                    <img src="./imgs/node.png" className="logo me-4" alt="node"></img>
+                    <img src="./imgs/express.png" className="logo me-4" alt="express"></img>
+                    <img src="./imgs/sql.png" className="logo me-4" alt="sql"></img>
                 </div>
             </div>
             <div className="row mt-3">

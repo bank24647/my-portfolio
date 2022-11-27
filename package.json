@@ -1,7 +1,6 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://bank24647.github.io/my-portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",

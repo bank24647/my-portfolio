@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800&display=swap');
 
-
+div {
+  margin: auto;
+}
 
 .App-logo {
   height: 40vmin;
@@ -45,31 +48,15 @@
 }
 
 .intro {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Kanit', sans-serif;
   color: #fafafa;
+  font-weight: 600;
+}
+.sub-intro {
+  font-family: 'Kanit', sans-serif;
+  color: #fafafa;
+  font-size: medium;
   font-weight: 300;
-}
-
-#name {
-  background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: rainbow_animation 6s ease-in-out infinite;
-  background-size: 400% 100%;
-  font-weight: 500;
-}
-
-@keyframes rainbow_animation {
-
-  0%,
-  100% {
-    background-position: 0 0;
-  }
-
-  50% {
-    background-position: 100% 0;
-  }
 }
 
 .center {
@@ -121,6 +108,7 @@ hr {
   transition: filter 250ms;
   width: fit-content;
   font-weight: 600;
+  font-family: 'Kanit', sans-serif
 }
 
 .shadow {
@@ -158,7 +146,7 @@ hr {
   border-radius: 12px;
   font-size: 1.25rem;
   color: white;
-  background: hsl(345deg 100% 47%);
+  background: #F0003C;
   will-change: transform;
   transform: translateY(-4px);
   transition:
@@ -193,65 +181,4 @@ hr {
 
 .pushable:focus:not(:focus-visible) {
   outline: none;
-}
-
-
-
-.btn-topic {
-  position: relative;
-  display: inline-block;
-  margin: auto;
-}
-
-.btn-topic a {
-  color: white;
-  font-family: Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-  text-align: center;
-  text-decoration: none;
-  background-color: #FFA12B;
-  display: block;
-  position: relative;
-  width: fit-content;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  text-shadow: 0px 1px 0px #000;
-  filter: dropshadow(color=#000, offx=0px, offy=1px);
-
-  -webkit-box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
-  -moz-box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
-  box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
-
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-.btn-topic a:active {
-  top: 10px;
-  background-color: #F78900;
-
-  -webkit-box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
-  -moz-box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
-  box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
-}
-
-.btn-topic:after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  padding: 4px;
-  position: absolute;
-  bottom: -15px;
-  left: -4px;
-  z-index: -1;
-  background-color: #2B1800;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
 }

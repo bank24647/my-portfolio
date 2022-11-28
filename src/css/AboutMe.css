@@ -1,41 +1,35 @@
 #aboutMe {
-    background-color: #211132;
     height: fit-content;
-    font-family: 'Montserrat', sans-serif;
-    color: #fafafa;
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
     font-weight: lighter;
 }
+#topic-am{
+    background-color: #1A1A2E;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 3px;
+}
+.first-row-am{
+    background-color: #1A1A2E;
+    margin: 5px;
 
+}
+.second-row-am{
+    background-color: #1A1A2E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 #avatar {
-    width: 300px;
+    width: 150px;
     max-width: 100%;
     height: auto;
     padding: 5px;
-    border-radius: 00%;
-    --border-size: 3px;
-    --border-angle: 0turn;
-    background-image: conic-gradient(from var(--border-angle),
-            #213,
-            #112 50%,
-            #213),
-        conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
-    background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
-        cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    animation: bg-spin 5s linear infinite;
-}
-
-@keyframes bg-spin {
-    to {
-        --border-angle: 1turn;
-    }
-}
-
-@property --border-angle {
-    syntax: "<angle>";
-    inherits: true;
-    initial-value: 0turn;
+    box-shadow: 0px 0px 10px 1px #000000;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
 }
 
 .logo {
@@ -44,7 +38,28 @@
 }
 
 .skill {
-    position: relative;
-    left: 50px;
-    width: 200px;
+    width: auto;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+#p-aboutme{
+    background-color: #A30029;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    margin: auto;
+    width: 95%;
+}
+h5#name{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+}
+
+h5#nickname {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: medium;
+}
+.am-icon{
+    color:#ffffff;
 }
